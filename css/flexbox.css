@@ -65,6 +65,10 @@ div img {
   .col-4 {
     flex: 0 0 92%;
   }
+  .col-1-2-1{
+    flex: 0 0 92%;
+    order:-1;
+  }
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
@@ -80,5 +84,9 @@ div img {
   }
   .col-4 {
     flex: 0 0 92%;
+  }
+  .col-1-2-1{
+    flex: 0 0 44%;
+    order:0
   }
 }
